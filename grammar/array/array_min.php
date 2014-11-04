@@ -1,0 +1,1 @@
+<?php$array = array(    'z' =>1,    'e' =>2,    'd' => 3);$a = min($array);//echo $a;$array1 = array('2014-02-02','2014-02-01','2014-01-31');$array2 = array('2014-02-02','2014-02-01','2014-01-31');$array3 = array_merge($array1,$array2);$array4 =array_unique($array3);echo(asort($array4));print_r($array4);?>
